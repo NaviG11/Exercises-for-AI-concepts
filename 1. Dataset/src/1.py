@@ -1,3 +1,4 @@
+from colored import Fore, Back, Style
 import csv
 import math
 
@@ -61,7 +62,7 @@ class DataSet:
         return column_data[q1_index], column_data[q2_index], column_data[q3_index]
 
 # Definir la dirección del archivo CSV
-DIRECCTION = "../data/StressLevelDataset.csv"
+DIRECCTION = "../../data/StressLevelDataset.csv"
 
 # Función para cargar los datos desde el archivo CSV
 def load_data_from_csv(file_path):
@@ -78,7 +79,7 @@ data = load_data_from_csv(DIRECCTION)
 
 # Ejemplo de uso
 dataset = DataSet(data)
-print("Number of columns:", len(dataset.columns))
+#print("Number of columns:", len(dataset.columns))
 column = int(input("Enter the column index: "))
 print("Mean of column 0:", dataset.column_mean(column))
 print("Median of column 0:", dataset.column_median(column))

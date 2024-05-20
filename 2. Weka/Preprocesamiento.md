@@ -1,5 +1,7 @@
 # Algoritmos de preprocesamiento de datos
 
+Algoritmos de filtrado y selección de características
+
 Los datos sin procesar pueden contener ruido, valores faltantes, inconsistencias y otras anomalías que pueden afectar negativamente los resultados.
 
 El preprocesamiento de datos ayuda a preparar los datos para su uso posterior, mejorando su calidad y confiabilidad.
