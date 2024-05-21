@@ -23,11 +23,3 @@
 ---
 
 Cada pregunta debe ser almacenada en Github, la misma permitir su acceso mínimamente a <msilva@fcpn.edu.bo>. Adjuntar el link por pregunta en un Pdf o Word y enviarlo para su revisión.
-
----
-
-Itertools --> GetCombinations
-Random.sample
-Permutaciones sin repetición
-np.hstack()
-Revisar el estado
